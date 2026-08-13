@@ -2,7 +2,7 @@
 
 Modern website for Poorbita, an initiative of Egra Agriculture and Rural Development Society in West Bengal.
 
-## Development
+## Development.
 
 ```sh
 npm install
