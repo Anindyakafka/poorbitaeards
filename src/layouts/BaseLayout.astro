@@ -3,7 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 interface Props { title?: string; description?: string; }
-const { title = 'Poorbita — Building rural futures', description = 'Poorbita works with rural and tribal communities across West Bengal to strengthen livelihoods, skills and cultural heritage.' } = Astro.props;
+const { title = 'Poorbita — Education, dignity and livelihood', description = 'Poorbita supports children, adolescents, women and rural communities across West Bengal through education, nutrition, skills, health and sustainable livelihoods.' } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><meta name="description" content={description}><link rel="canonical" href={canonicalURL}><meta property="og:type" content="website"><meta property="og:site_name" content="Poorbita"><meta property="og:title" content={title}><meta property="og:description" content={description}><meta property="og:url" content={canonicalURL}><meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.svg"><meta name="theme-color" content="#245447"><title>{title}</title></head><body><Header/><main><slot/></main><Footer/></body></html>

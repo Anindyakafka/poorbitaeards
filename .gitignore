@@ -3,3 +3,7 @@ dist/
 .astro/
 .netlify/
 .DS_Store
+
+# Client-supplied working material may contain private or unapproved content.
+# Keep the instructions tracked, but never commit incoming files by default.
+client-materials/incoming/**

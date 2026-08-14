@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" role="img" aria-labelledby="title desc">
+  <title id="title">Poorbita</title><desc id="desc">A flame lily symbol beside the Poorbita name</desc>
+  <g transform="translate(8 4)">
+    <path d="M66 119C40 90 42 66 62 44c-2 18 4 29 13 39 3-29 13-48 30-67-2 27 6 40 16 54 9 13 10 30-7 49-7-20-17-30-27-45 2 20-1 34-21 45Z" fill="#e96832"/>
+    <path d="M66 119c4-30 15-52 39-72-4 31 8 43 9 72H66Z" fill="#f3b436"/>
+    <path d="M89 126C61 106 43 92 22 90c16 20 34 34 67 36Zm6 0c29-20 47-34 68-36-16 20-34 34-68 36Z" fill="#1f5a47"/>
+    <path d="M91 128V82M42 105C27 106 19 99 13 88M140 105c15 1 23-6 29-17" fill="none" stroke="#1f5a47" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="12" cy="86" r="4" fill="#f3b436"/><circle cx="170" cy="86" r="4" fill="#f3b436"/>
+  </g>
+  <text x="202" y="82" fill="#173c31" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="3">POORBITA</text>
+  <text x="205" y="108" fill="#8a4b35" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="3.4">EDUCATION • DIGNITY • LIVELIHOOD</text>
+</svg>

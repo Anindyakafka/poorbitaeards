@@ -139,7 +139,7 @@ Submissions appear in the Netlify project under **Forms**. Configure submission 
 
 Netlify form handling does not operate through the ordinary Astro development server. Test the final form on a Netlify deploy or Deploy Preview.
 
-The website currently displays the archived addresses `contact@poorbita.org` and `eards15@gmail.com`. The first email uses the former `poorbita.org` domain and is intentionally not rewritten to `poorbitaeards.org`; Poorbita must confirm that a new mailbox exists before the displayed email is changed.
+The website currently uses the client-supplied address `eards15@gmail.com`. Do not introduce an address at `poorbitaeards.org` until the mailbox and its email DNS records have been configured and tested.
 
 ## Netlify deployment
 
