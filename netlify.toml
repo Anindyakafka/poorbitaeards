@@ -2,6 +2,20 @@
   command = "npm run build"
   publish = "dist"
 
+# These redirects work when the former domains remain assigned as aliases
+# to this Netlify project. The primary domain is poorbitaeards.org.
+[[redirects]]
+  from = "https://poorbitaeards.com/*"
+  to = "https://poorbitaeards.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.poorbitaeards.com/*"
+  to = "https://poorbitaeards.org/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
