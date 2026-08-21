@@ -4,7 +4,7 @@ const path = Astro.url.pathname;
 ---
 <header class="site-header">
   <div class="container bar">
-    <a class="brand" href="/" aria-label="Poorbita home"><img src="/brand/poorbita-logo-v2.png" alt="Poorbita"></a>
+    <a class="brand" href="/" aria-label="Poorbita home"><img src="/brand/poorbita-logo-official.png" alt="Poorbita"></a>
     <button class="menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     <nav aria-label="Main navigation">
       {nav.map(item => <a href={item.href} class:list={{ active: path === item.href || (item.href !== '/' && path.startsWith(item.href)) }}>{item.label}</a>)}
