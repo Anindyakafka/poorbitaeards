@@ -13,6 +13,47 @@ client-materials/
     └── brand/      # Logos, fonts, colour references and identity files
 ```
 
+## Current intake folders
+
+Use the most specific folder available. Do not rename or overwrite original client files unless you are working on an approved public copy.
+
+### Registered identity
+
+- `incoming/brand/registered-logo/` — the official registered logo in every supplied format
+- `incoming/brand/guidelines/` — brand manuals, colour specifications and font information
+- `incoming/brand/reference/` — historical identity material that should not automatically be published
+
+For the registered logo, prefer SVG, EPS, AI or PDF. Also include the largest transparent PNG supplied by the client. Do not convert or optimize the only original copy.
+
+### Photographs
+
+- `incoming/images/programmes/kishalay/` — children, education, nutrition, sport and talent development
+- `incoming/images/programmes/agnishikha/` — adolescent girl empowerment
+- `incoming/images/programmes/jibika/` — women, skills and livelihood training
+- `incoming/images/programmes/chetana/` — awareness and capacity-building sessions
+- `incoming/images/programmes/seva/` — medical camps, eye care, blood donation and relief
+- `incoming/images/programmes/sanskriti/` — art, craft, festivals and cultural performances
+- `incoming/images/programmes/krishi/` — farming, kitchen gardens, livestock and pisciculture
+- `incoming/images/programmes/swapna/` — future programmes and concept/reference material
+- `incoming/images/people/team/` — board, staff, teachers and volunteers
+- `incoming/images/people/beneficiaries/` — portraits with confirmed publication consent
+- `incoming/images/places/centres/` — Poorbita centres, classrooms and facilities
+- `incoming/images/places/communities/` — villages and field locations
+- `incoming/images/events/` — dated events that span several programme areas
+- `incoming/images/awards-media/` — awards, certificates, press and recognition
+- `incoming/images/uncategorised/` — unclear photographs for later review
+
+Add known image information to `incoming/images/image-metadata.csv`. One image can have only one row; use semicolons inside the `people_or_notes` field when needed.
+
+### Documents
+
+- `incoming/documents/content/` — approved copy, programme descriptions and organizational profiles
+- `incoming/documents/legal/` — registrations, certificates and compliance documents
+- `incoming/documents/reports/` — annual reports, impact reports and financial reports
+- `incoming/documents/awards-media/` — award letters, press clippings and coverage
+- `incoming/documents/governance/` — board and advisory council information
+- `incoming/documents/private/` — sensitive reference documents that must never be published directly
+
 Everything inside `incoming/` is ignored by Git. This prevents unreviewed, sensitive or personally identifiable material from being committed or deployed accidentally.
 
 ## Workflow
