@@ -56,6 +56,13 @@ Add known image information to `incoming/images/image-metadata.csv`. One image c
 
 Everything inside `incoming/` is ignored by Git. This prevents unreviewed, sensitive or personally identifiable material from being committed or deployed accidentally.
 
+## Confirmed source documents
+
+- `incoming/documents/content/poorbita-kishalay-brochure.pdf` — client-approved Kishalay brochure used for current program, campus, recognition, cost, contact and contribution information
+- `incoming/brand/reference/poorbita-agnisikha-reference.jpeg` — original flower reference supplied for Agnishikha; retained as reference rather than a public logo
+
+Bank details may be incorporated into public page copy only from a client-confirmed source. Keep the original source private, transcribe account and IFSC values exactly, and ask EARDS to reconfirm them whenever a replacement brochure is supplied.
+
 ## Workflow
 
 1. Store the original client file in the appropriate `incoming/` folder.

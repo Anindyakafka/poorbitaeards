@@ -35,8 +35,11 @@ Astro generates plain HTML, CSS and a small amount of browser JavaScript. This k
 ```text
 .
 ├── public/
-│   ├── favicon.svg
-│   └── images/              # Photographs served without processing
+│   ├── brand/               # Approved public logo assets
+│   ├── favicon.png
+│   └── images/              # Approved photographs served without processing
+├── client-materials/
+│   └── incoming/            # Private client-source archive; ignored by Git
 ├── src/
 │   ├── components/
 │   │   ├── Footer.astro
@@ -108,11 +111,11 @@ Before pushing a change, run:
 npm run build
 ```
 
-A successful build should report zero Astro errors and generate all six routes.
+A successful build should report zero Astro errors and generate the static pages plus all program routes.
 
 ## Content and images
 
-The initial text, program history, contact details and photographs were recovered from Poorbita's archived website. They provide a useful historical foundation but should not automatically be treated as current.
+The site combines material recovered from Poorbita's archived website with newer client-approved documents and photographs. The August 2026 Kishalay brochure is the confirmed source for the current Kishalay description, reach, operating-cost figures, campus list, recognition, contact details and contribution instructions now published on the site.
 
 Shared navigation and program summaries are in `src/data/site.ts`. Longer page-specific copy currently lives inside the relevant `.astro` page.
 
@@ -125,7 +128,19 @@ Photographs are stored in `public/images` and referenced as `/images/filename.jp
 - Confirm publication consent, especially for images containing children.
 - Record the program, location and approximate date outside the image file when possible.
 
-Do not use invented impact figures or unverified donation information. Historical figures displayed on the website should remain clearly identified as archival until Poorbita supplies current reporting data.
+Do not use invented impact figures or unverified donation information. Client originals belong under `client-materials/incoming/`, which is ignored by Git. Only reviewed public assets belong under `public/`.
+
+The approved Kishalay brochure is archived privately at:
+
+```text
+client-materials/incoming/documents/content/poorbita-kishalay-brochure.pdf
+```
+
+The original Agnishikha flower reference is archived at:
+
+```text
+client-materials/incoming/brand/reference/poorbita-agnisikha-reference.jpeg
+```
 
 ## Contact form
 
@@ -214,7 +229,7 @@ The NGO should confirm the following before treating the site as final:
 - Rights and consent for every published photograph
 - Privacy requirements for contact-form submissions
 
-The site deliberately does not publish online banking or payment details until the organisation supplies verified information.
+The client-approved Kishalay brochure now provides the published bank, UPI availability, 80G and sponsorship-cost information. Reconfirm these details with EARDS whenever the brochure is replaced, and never infer or alter financial information from an image or an unapproved message.
 
 ## Maintenance
 
